@@ -8,7 +8,10 @@ public class SwitchCase {
 		
 		switch(modulo)
 		{case "contabilidad": System.out.println("Dia de contabilidad");
-		break;}
+		break;
+		default :
+			System.out.println("Dia no valido");
+			}
 		
 		switch(dia)
 		{case 1: System.out.println("Este es el dia 1");
