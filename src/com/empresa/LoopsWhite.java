@@ -9,6 +9,11 @@ public class LoopsWhite {
 			System.out.println(i);
 			i++;
 		}
+//		Bucle infinito
+		while(true) {
+			System.err.println(i);
+			i++;
+		}
  
 		
 		
