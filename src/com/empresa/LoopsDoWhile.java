@@ -7,7 +7,7 @@ public class LoopsDoWhile {
 		do {
 			System.out.println(i);
 			i++;
-		}while(i<5);
+		} while(i<5);
 
 	}
 

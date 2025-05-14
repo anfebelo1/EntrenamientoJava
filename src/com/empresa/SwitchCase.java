@@ -3,35 +3,45 @@ package com.empresa;
 public class SwitchCase {
 
 	public static void main(String[] args) {
-		int dia=1;
-		String modulo="contabilidad";
-		
-		switch(modulo)
-		{case "contabilidad": System.out.println("Dia de contabilidad");
-		break;
-		default :
-			System.out.println("Dia no valido");
-			}
-		
-		switch(dia)
-		{case 1: System.out.println("Este es el dia 1");
-		break;
-		case 2: System.out.println("Este es el dia 2");
-		break;
-		case 3: System.out.println("Este es el dia 3");
-		break;
-		case 4: System.out.println("Este es el dia 4");
-		break;
-		case 5:  System.out.println("Este es el dia 5");
-		break;
-		case 6:  System.out.println("Este es el dia 6");
-		break;
-		case 7:  System.out.println("Este es el dia 7");
-		break;
-		default :
-		System.out.println("Dia no valido");
-		}
+	String modulo="Contabilidad";
 	
+	switch(modulo)
+	{
+	case "Contabilidad":
+		System.out.println("Ingreso al modulo de Contabilidad");
+		//localizador
+		break;
+		
+	case "Presupuesto":
+		System.out.println("Ingreso al modulo de Presupuesto");
+		//localizador
+		break;
+		
+	case "Tesoreria":
+		System.out.println("Ingreso al modulo de Tesoreria");
+		//localizador
+		break;
+		
+	case "Nomina":
+		System.out.println("Ingreso al modulo de Nómina");
+		//localizador
+	break;
+	
+	case "Inventarios":
+		System.out.println("Ingreso al módulo de inventarios");
+		//localizador
+	break;
+	
+	case "Indycom": 
+		System.out.println("Ingreso al modulo de industria y comercio");
+		//localizador
+	break;
+	
+	case "Predial":
+		System.out.println("Ingreso al módulo de predial");
+	break;
+	default:
+	System.out.println("Regrese a la pagina y escoja un módulo");
 	}
-
+	}
 }
