@@ -12,7 +12,7 @@ public class CondicionalesIf {
 		//primer tipo de if
 		/*if(a>1000)
 		{
-			System.out.println("A es mayor que 1000");
+			System.out.println("A es mayor que 10000");
 		}*/
 		
 		//Segundo tipo de if
